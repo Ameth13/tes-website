@@ -2,52 +2,46 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f9f9f9;
+    color: #333;
 }
 
-h1 {
+header {
     background-color: #4CAF50;
     color: white;
-    padding: 10px;
     text-align: center;
-}
-
-p {
-    margin: 15px;
-    padding: 10px;
-    background: white;
-    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
-}
-
-nav {
-    background: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
+    padding: 15px 0;
 }
 
 nav a {
     color: white;
     margin: 0 15px;
     text-decoration: none;
+    font-weight: bold;
 }
 
 nav a:hover {
     text-decoration: underline;
 }
-nav {
+
+main {
+    padding: 20px;
+}
+
+h1, h2 {
+    color: #4CAF50;
+}
+
+ul {
+    list-style-type: disc;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+footer {
     background-color: #333;
-    padding: 10px;
-    text-align: center;
-}
-
-nav a {
     color: white;
-    text-decoration: none;
-    margin: 0 15px;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 20px;
 }
-
-nav a:hover {
-    text-decoration: underline;
-}
-
