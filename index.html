@@ -5,24 +5,59 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>TES SARL - Accueil</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
 </head>
 <body>
-    <header>
-        <h1>Tawfekh Echafaudage Services (TES SARL)</h1>
-        <nav>
-            <a href="index.html">Accueil</a>
-            <a href="about.html">À propos</a>
-            <a href="services.html">Services</a>
-            <a href="contact.html">Contact</a>
-        </nav>
+    <header class="hero">
+        <div class="overlay">
+            <h1>Tawfekh Echafaudage Services</h1>
+            <p>Votre partenaire pour des solutions sécurisées d'échafaudages au Sénégal</p>
+            <a href="#services" class="btn-primary">Explorez nos services</a>
+        </div>
     </header>
+    <nav class="navbar">
+        <a href="#about">À propos</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#contact">Contact</a>
+    </nav>
     <main>
-        <section class="hero">
-            <h2>Votre partenaire de confiance pour la location et le montage d'échafaudages au Sénégal</h2>
-            <p>TES SARL propose des services professionnels pour tous vos besoins en échafaudages. Contactez-nous pour des solutions fiables et sécurisées.</p>
+        <section id="about" class="about">
+            <h2>À propos de TES SARL</h2>
+            <p>Tawfekh Echafaudage Services (TES SARL) est une entreprise basée au Sénégal, spécialisée dans la location, vente, montage et démontage d’échafaudages. Nous assurons des services professionnels et sécurisés pour vos projets de construction.</p>
+        </section>
+        <section id="services" class="services">
+            <h2>Nos services</h2>
+            <div class="service" data-tilt>
+                <img src="images/location.jpg" alt="Location d'échafaudages">
+                <h3>Location</h3>
+                <p>Des échafaudages fiables, à partir de 1 000 FCFA par jour.</p>
+            </div>
+            <div class="service" data-tilt>
+                <img src="images/montage.jpg" alt="Montage et démontage">
+                <h3>Montage</h3>
+                <p>Service sécurisé par des techniciens qualifiés.</p>
+            </div>
+            <div class="service" data-tilt>
+                <img src="images/vente.jpg" alt="Vente d'échafaudages">
+                <h3>Vente</h3>
+                <p>Des matériels adaptés à tous vos besoins.</p>
+            </div>
+        </section>
+        <section id="gallery" class="gallery">
+            <h2>Galerie</h2>
+            <div class="gallery-grid">
+                <img src="images/project1.jpg" alt="Projet 1">
+                <img src="images/project2.jpg" alt="Projet 2">
+                <img src="images/project3.jpg" alt="Projet 3">
+                <img src="images/project4.jpg" alt="Projet 4">
+            </div>
         </section>
     </main>
-    <footer>
+    <footer id="contact">
+        <h3>Contactez-nous</h3>
+        <p>Email : <a href="mailto:contact@tes-sarl.com">contact@tes-sarl.com</a></p>
+        <p>Téléphone : +221 77 123 4567</p>
         <p>&copy; 2024 TES SARL - Tous droits réservés</p>
     </footer>
 </body>
